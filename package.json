@@ -1,10 +1,11 @@
 {
-  "name": "smallbutton",
-  "version": "1.0.0",
+  "name": "smallbuttoncycallj",
+  "version": "1.0.5",
   "description": "test for react component",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/cycallj/smallButton/issues"
   },
-  "homepage": "https://github.com/cycallj/smallButton#readme"
+  "homepage": "https://github.com/cycallj/smallButton#readme",
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
